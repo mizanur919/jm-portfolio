@@ -1,9 +1,37 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+/* Section Middle */
+.middle{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.hero{
+    background-color: brown;
+}
+
 h1{
     font-size: 50px;
 }
+
 .name-highlight{
     color:#e74c3c;
+}
+
+.half-width{
+    width: 45%;
+    float: left;
+}
+
+.half-width:first-child{
+    margin-right: 5%;
+}
+
+.half-width:last-child{
+    margin-left: 5%;
+}
+
+.half-width img{
+    width: 100%;
 }
