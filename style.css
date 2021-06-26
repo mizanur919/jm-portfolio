@@ -6,7 +6,7 @@
 :root{
     --Poppins: 'Poppins', sans-serif;
 }
-/* Default Styles */
+/* Default Styles Stats */
 .middle{
     width: 80%;
     margin: 0 auto;
@@ -15,6 +15,10 @@
 a{
     text-decoration: none;
     display: inline-block;
+}
+
+.sec-padding{
+    padding: 100px 0;
 }
 
 .btn{
@@ -28,14 +32,6 @@ h1, h2, h3, h4, h5, h6, p, a{
     font-family: var(--Poppins);
 }
 
-.hero{
-    background-image: url("./images/top-banner.png");
-    background-repeat: no-repeat;
-    background-size:auto;
-    height: 600px;
-    padding: 70px 0;
-}
-
 h1{
     font-size: 50px;
 }
@@ -46,6 +42,14 @@ h2{
 
 h3{
     padding: 25px 0;
+}
+/* Default Styles Stats */
+
+.hero{
+    background-image: url("./images/top-banner.png");
+    background-repeat: no-repeat;
+    background-size:auto;
+    padding:100px 0;
 }
 
 .name-highlight{
@@ -82,4 +86,7 @@ h3{
     border: 2px solid #e74c3c;
     color: #e74c3c;
 }
+
+/* Info Section */
+
 
