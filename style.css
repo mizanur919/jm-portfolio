@@ -49,7 +49,7 @@ h3{
     background-image: url("./images/top-banner.png");
     background-repeat: no-repeat;
     background-size:auto;
-    padding:100px 0;
+    display: inline-block;
 }
 
 .name-highlight{
@@ -88,5 +88,36 @@ h3{
 }
 
 /* Info Section */
+.info{
+    background-image: url("./images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-position: right;
+    display: inline-block;
+}
 
+/* Experience Section */
+.experience{background-image: url("./images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-position: left;
+    display: inline-block;
+}
 
+.experience .title{
+    text-align: center;
+    padding: 0 0 40px 0;
+}
+
+.highlight{
+    color: #e74c3c;
+    margin-bottom: 30px;
+}
+
+.single-experience{
+    box-shadow: 10px 10px 40px grey;
+    padding: 20px;
+    border-left: 5px solid #e74c3c;
+    height: 350px;
+    border-radius: 5px;
+}
