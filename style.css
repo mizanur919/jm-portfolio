@@ -1,18 +1,34 @@
-body{
-    font-family: 'Poppins', sans-serif;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --Poppins: 'Poppins', sans-serif;
 }
 /* Section Middle */
 .middle{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
 
 .hero{
-    background-color: brown;
+    background-image: url("./images/top-banner.png");
+    background-repeat: no-repeat;
+    background-size:auto;
+    height: 400px;
+    padding: 70px 0;
+}
+h1, h2, h3, h4, h5, h6, p{
+    font-family: var(--Poppins);
 }
 
 h1{
     font-size: 50px;
+}
+
+h3{
+    padding: 25px 0;
 }
 
 .name-highlight{
